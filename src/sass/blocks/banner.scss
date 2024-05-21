@@ -5,6 +5,8 @@
 .banner__container {
   padding-top: 20px;
   padding-bottom: 40px;
+  width: 280px;
+  margin: 0 auto;
   
   @media (min-width: 768px) {
     width: 738px;
@@ -15,8 +17,6 @@
 .banner__img {
   display: block;
   margin-bottom: 18px;
-  width: 100%;
-  height: auto;
 
   @media (min-width: 768px) {
     margin-bottom: 13px;
