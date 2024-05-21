@@ -3,7 +3,7 @@
   padding: 10px 20px 12px 20px;
   background-color: #2D1AA7;
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   color: #ffffff;
   font-size: 14px;
   line-height: 18px;
@@ -27,6 +27,7 @@
 
   &--form-mod {
     width: 100%;
+    padding: 15px 30px 17px 30px;
 
     @media (min-width: 768px) {
       width: fit-content;

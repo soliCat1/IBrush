@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400..600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-  <link rel="icon" type="image/icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
   <link rel="stylesheet" href="css/style.css">
   <title>IBrush test</title>
 </head>
@@ -86,7 +86,8 @@
             <span class="intro__number">12</span>
             <span class="intro__month">Апреля</span>
           </div>
-          <img class="intro__img" src="images/content/books-intro.webp" width="738" height="330" alt="Изображение книг">
+          <img class="intro__img" src="images/content/books-intro.webp"
+           srcset="images/content/books-intro-2x.webp 2x" width="738" height="330" alt="Изображение книг">
         </div>
       </div>
       <article class="intro__blockquote blockquote">
@@ -109,8 +110,10 @@
     <div class="banner">
       <div class="banner__container container">
         <picture>
-          <source media="(min-width: 768px)" srcset="images/content/books-desktop.webp">
-          <img class="banner__img" src="images/content/books-mobile.webp" alt="Стопка книг">
+          <source media="(min-width: 768px)"
+           srcset="images/content/books-desktop.webp, images/content/books-desktop-2x.webp 2x">
+          <img class="banner__img" src="images/content/books-mobile.webp"
+           srcset="images/content/books-mobile-2x.webp 2x" alt="Стопка книг">
         </picture>
         <span class="banner__description">Реклама на <a class="banner__link" href="/">blabla.com</a></span>
       </div>

@@ -181,10 +181,15 @@ ul {
 }
 
 .intro__title {
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 600;
   margin-bottom: 11px;
 }
 @media (min-width: 768px) {
   .intro__title {
+    font-size: 52px;
+    line-height: 46px;
     margin-bottom: 37px;
   }
 }
@@ -715,7 +720,7 @@ ul {
   padding: 10px 20px 12px 20px;
   background-color: #2D1AA7;
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   color: #ffffff;
   font-size: 14px;
   line-height: 18px;
@@ -738,6 +743,7 @@ ul {
 }
 .button--form-mod {
   width: 100%;
+  padding: 15px 30px 17px 30px;
 }
 @media (min-width: 768px) {
   .button--form-mod {
