@@ -1,0 +1,35 @@
+.button {
+  display: block;
+  padding: 10px 20px 12px 20px;
+  background-color: #2D1AA7;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+
+  &--modal-mod {
+    width: 100%;
+    margin-bottom: 58px;
+    padding: 15px 20px 17px 20px;
+  }
+
+  &--header-mod {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  &--form-mod {
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: fit-content;
+    }
+  }
+}

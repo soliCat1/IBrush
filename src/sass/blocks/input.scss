@@ -1,0 +1,62 @@
+.input {
+  position: relative;
+
+  &--textarea {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  &--modal-mod + .input--modal-mod {
+    margin: 12px 0 22px 0;
+  }
+}
+
+.form__wrapper .input {
+  @media (min-width: 768px) {
+    width: 230px;
+  }
+}
+
+.input__field {
+  border: 1px solid #ededf1;
+  background-color: #ffffff;
+  padding: 17px 15px 18px 15px;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  width: 100%;
+  font-family: inherit;
+
+  &--textarea {
+    min-height: 200px;
+    resize: none;
+  }
+}
+
+.input__field:placeholder-shown + .input__label {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  color: #777777;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  transition: top 0.3s ease, font-size 0.3s ease;
+}
+
+.input__label,
+.input__field:focus + .input__label {
+  position: absolute;
+  top: 3px;
+  left: 15px;
+  color: #777777;
+  font-size: 9px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.input__field:focus,
+.form__select:focus {
+  outline: none;
+}

@@ -1,0 +1,25 @@
+.rating__score {
+  font-size: 28px;
+  line-height: 36px;
+  width: 20px;
+}
+
+.rating__stars {
+  padding: 0;
+  border: none;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.rating__stars label {
+  cursor: pointer;
+}
+
+.rating__svg {
+  color: #FFB400;
+  transition: color 0.3s;
+}
+
+.rating__stars input:checked ~ label svg {
+  color: #d7d7e2;
+}

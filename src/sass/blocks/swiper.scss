@@ -1,0 +1,24 @@
+:root {
+  --swiper-pagination-color: #2D1AA7;
+  --swiper-pagination-bullet-size: 15px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+  --swiper-pagination-bullet-inactive-color: #2D1AA7;
+  --swiper-pagination-bullet-horizontal-gap: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  position: relative;
+}
+
+.swiper-pagination-bullet-active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: #2D1AA7;
+  border-radius: 50%;
+}

@@ -1,0 +1,32 @@
+.conclusion {
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+  @media (min-width: 768px) {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+}
+
+.conclusion__title {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 9px;
+
+  @media (min-width: 768px) {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+}
+
+.conclusion__description {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
